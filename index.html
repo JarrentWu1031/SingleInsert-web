@@ -350,7 +350,7 @@
         <h2 class="title is-3">Pipeline</h2>
         <div class="content has-text-justified">
           <p>
-            <b>SingleInsert</b> adopts a two-stage scheme as shown below. In the inversion stage (stage I), we optimize the image-to-text encoder to invert the source image to proper embedding that restores the identity of the intended concept while disentangles with the irrelevant background. Then in the finetuning stage (stage II), we finetune the T2I model along with the image encoder to further improve the visual fidelity without sacrificing editing flexibility. To be noted, we do not need to generate class-specific datasets in advance to avoid the "language drift" problem as in existing methods, owing to our proposed semantic loss. 
+            <b>SingleInsert</b> adopts a two-stage scheme as depicted below. In the inversion stage (stage I), we optimize the image-to-text encoder to invert the source image into a suitable embedding that restores the intended concept's identity while disentangling it from the irrelevant background. Subsequently, in the finetuning stage (stage II), we finetune the T2I model along with the image encoder to enhance visual fidelity without compromising editing flexibility. It is worth noting that our proposed semantic loss eliminates the need to generate class-specific datasets beforehand, thereby mitigating the "language drift" problem encountered in existing methods.
           </p>
           <ul>
           </ul>
